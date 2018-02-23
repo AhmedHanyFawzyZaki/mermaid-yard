@@ -24,7 +24,7 @@ $this->widget('bootstrap.widgets.TbDetailView', array(
         'email',
         'phone',
         'address',
-        //'facebook',
+        'facebook',
         //'twitter',
         //'linkedin',
         //'footer'

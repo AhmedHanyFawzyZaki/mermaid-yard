@@ -13,9 +13,18 @@ class HomeController extends FrontController {
         $about = Page::model()->findByPk(2);
         $services = Page::model()->findByPk(3);
         $settings = Settings::model()->findByPk(1);
+        $testimonials = Testimonial::model()->findAll();
+        $prices = Price::model()->findAll();
         Yii::app()->clientScript->registerMetaTag($home->meta_tags, 'keywords');
         Yii::app()->clientScript->registerMetaTag($home->meta_description, 'description');
-        $this->render('index', array('home' => $home, 'about' => $about, 'services' => $services, 'settings' => $settings));
+        $this->render('index', array(
+            'home' => $home,
+            'about' => $about,
+            'services' => $services,
+            'settings' => $settings,
+            'prices' => $prices,
+            'testimonials' => $testimonials
+        ));
     }
 
     public function actionPage() {

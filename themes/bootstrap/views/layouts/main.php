@@ -153,6 +153,18 @@
                         </a>
                     </li>
                     <li>
+                        <a href="<?= Yii::app()->request->baseUrl ?>/testimonial">
+                            <i class="icon-quote-left"></i>
+                            <?= Yii::t('translate', 'Testimonials') ?>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="<?= Yii::app()->request->baseUrl ?>/price">
+                            <i class="icon-money"></i>
+                            <?= Yii::t('translate', 'Prices') ?>
+                        </a>
+                    </li>
+                    <li>
                         <a href="<?= Yii::app()->request->baseUrl ?>/dashboard/logout">
                             <i class="icon-off"></i>
                             <?= Yii::t('translate', 'Logout') ?>

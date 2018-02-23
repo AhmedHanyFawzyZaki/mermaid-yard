@@ -56,14 +56,20 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
                         <li>
+                            <a class="page-scroll" href="#home">Home</a>
+                        </li>
+                        <li>
                             <a class="page-scroll" href="#about">About</a>
                         </li>
                         <li>
                             <a class="page-scroll" href="#services">Services</a>
                         </li>
-                        <!--<li>
-                            <a class="page-scroll" href="#portfolio">Portfolio</a>
-                        </li>-->
+                        <li>
+                            <a class="page-scroll" href="#testimonials">Testimonials</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#prices">Prices</a>
+                        </li>
                         <li>
                             <a class="page-scroll" href="#contact">Contact</a>
                         </li>
@@ -76,7 +82,7 @@
 
         <header>
             <div class="header-content">
-                <div class="header-content-inner">
+                <div class="header-content-inner" id="home">
                     <?= $home->details ?>
                     <a href="#about" class="btn btn-default btn-xl page-scroll">Find Out More</a>
                 </div>
@@ -87,6 +93,8 @@
         $this->renderPartial('//home/about', array('about' => $about));
         $this->renderPartial('//home/services', array('services' => $services));
         $this->renderPartial('//home/portfolio');
+        $this->renderPartial('//home/testimonials', array('testimonials' => $testimonials));
+        $this->renderPartial('//home/prices', array('prices' => $prices));
         $this->renderPartial('//home/contact', array('settings' => $settings));
         ?>
 

@@ -127,6 +127,18 @@
                     <span class="shortcuts-label">Pages</span>
                 </a>
             </li>
+            <li class="events">
+                <a class="btn" href="<?php echo Yii::app()->baseUrl; ?>/testimonial">
+                    <span class="fa icon-quote-left"></span>
+                    <span class="shortcuts-label">Testimonials</span>
+                </a>
+            </li>
+            <li class="events">
+                <a class="btn" href="<?php echo Yii::app()->baseUrl; ?>/price">
+                    <span class="fa icon-money"></span>
+                    <span class="shortcuts-label">Prices</span>
+                </a>
+            </li>
         </ul>
 
         <div class="span7">

@@ -414,3 +414,30 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #222222;
 }
+
+.carousel-control{
+    color: #000;
+    background: none !important;
+    margin: 20px;
+    position: relative;
+}
+
+.carousel-control:hover, .carousel-control:active, .carousel-control:focus{
+    color: #ccc;
+}
+#testimonials{
+    min-height: 500px;
+}
+.text-price{
+    color: #444;
+    text-align: center;
+    min-height: 150px;
+}
+.span-price{
+    text-align: center;
+    margin: 40px 0px 0px 0px;
+}
+.price-size{
+    font-size: 22px;
+    padding: 10px;
+}

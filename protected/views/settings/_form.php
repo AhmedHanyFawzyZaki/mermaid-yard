@@ -20,7 +20,7 @@ $form = $this->beginWidget('bootstrap.widgets.TbActiveForm', array(
 
 <?php //echo $form->textFieldRow($model, 'twitter', array('class' => 'span9', 'maxlength' => 255)); ?>
 
-<?php //echo $form->textFieldRow($model, 'facebook', array('class' => 'span9', 'maxlength' => 255)); ?>
+<?php echo $form->textFieldRow($model, 'facebook', array('class' => 'span9', 'maxlength' => 255)); ?>
 
 <?php //echo $form->textFieldRow($model, 'linkedin', array('class' => 'span9', 'maxlength' => 255)); ?>
 

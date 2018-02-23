@@ -119,6 +119,11 @@ return array(
                             'medium' => array('width' => 270, 'height' => 270),
                             'big' => array('width' => 540, 'height' => 299),
                         ),
+                        'testimonials' => array(
+                            'small' => array('width' => 180, 'height' => 180),
+                            'medium' => array('width' => 270, 'height' => 270),
+                            'big' => array('width' => 540, 'height' => 299),
+                        ),
                     ),
                 ),
             )
