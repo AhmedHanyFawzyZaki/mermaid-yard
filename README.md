@@ -1,4 +1,4 @@
-#Mermaid-yard:
+# Mermaid-yard:
 
 This a simple one page application built with a custom sms which allows the admin to fully manage and control the front-end.
 
